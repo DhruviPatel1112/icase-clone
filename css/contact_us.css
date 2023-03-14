@@ -1,0 +1,130 @@
+.form{
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+
+
+}
+
+.form-container input:focus{
+    outline: 0;
+    border-color: #777;
+}
+.title{
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+   
+}
+.form-container input,
+.form-container .subject{
+    width:600px;
+    height: 45px;
+    border-radius: 2px;
+    border:1px solid #CCCCCC;
+    padding: 0 15px;
+    background: #FFFFFF;
+}
+.form-container sup{
+    color: red;
+    font-size: 17px;
+}
+.form-container .code{
+    height: 45px;
+    padding:3px;
+}
+.form-container.success input{
+    border-color: #2ecc71;
+}
+#submit{
+    width: 270px;
+    height: 54px;
+    border-radius: 3px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #2ecc71;
+}
+small{
+    color: red;
+}
+
+
+.contact-info{
+    display: flex;
+    background-color: #00A9C7;
+    width: 424px;
+    height: 302px;
+    justify-content: space-evenly   ;
+    padding: 1%;
+    flex-direction: column;
+    margin-top: 45px;
+    margin-left: 40px;
+}
+.phone{
+    display: flex;
+}
+#userPhone{
+    width:550px;
+}
+.icon:before,.email:before{
+
+    height: 48px;
+    width: 48px;
+    border-radius: 24px;
+    color: #00A9C7;
+    background-color: white;
+    content: '\e907';
+    font-family: 'icomoon';
+    padding: 15px;
+    /* margin-top: 10px; */
+}
+.email:before{
+    content: '\e908';
+    font-family: 'icomoon';
+}
+
+.head{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    color: white;
+
+}
+
+.contact1{
+    display: flex;
+    padding: 2%;
+    position: relative;
+
+}
+
+.contact1 .icon,.contact1 .email{
+
+    margin-right: 15px;
+}
+
+.contact1 .icon i{
+    position: absolute;
+    top: 25px;
+    left: 23px;
+}
+
+.contact1 span{
+    color: white;
+}
+.form-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../icons/icomoon.eot?5zgoy1');
+    src:  url('../icons/icomoon.eot?5zgoy1#iefix') format('embedded-opentype'),
+      url('../icons/icomoon.ttf?5zgoy1') format('truetype'),
+      url('../icons/icomoon.woff?5zgoy1') format('woff'),
+      url('../icons/icomoon.svg?5zgoy1#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
